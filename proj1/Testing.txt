@@ -1,0 +1,9 @@
+Methods of testing:
+
+- sample.dump tests unsupported instructions as well as basic instructions provided
+
+- memex.dump tests lw and sw instructions that uses all 5 stages (includes memory)
+
+- memerr.dump tests out of bounds memory address which should provide error message
+
+- andor.dump tests and or instructions which isn’t covered in sample.dump
